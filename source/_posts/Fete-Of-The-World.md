@@ -1,7 +1,7 @@
 ---
 title: Fete Of The World
-date: 2017-07-02 16:40:22
-tags: [SVG, GSAP]
+date: 2017-05-02 16:40:22
+tags: [SVG]
 categories: [Animation, SVG]
 ---
 

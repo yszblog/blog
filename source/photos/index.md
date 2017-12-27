@@ -11,7 +11,7 @@ type: "photos"
 	<a class="photos-btn active" href="javascript:void(0)">Photos</a>
 </div>
 <div class="instagram itemscope">
-	<a href="https://git-ysz.github.io" target="_blank" class="open-ins">图片正在加载中…</a>
+	<a href="https://git-ysz.github.io/photos/" target="_blank" class="open-ins">图片正在加载中…</a>
 </div>
  
 <script>
