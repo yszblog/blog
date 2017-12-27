@@ -1,36 +1,23 @@
-sudo: false
-language: node_js
-node_js:
-- '8'
-
-install:
-- yarn
-- yarn global add hexo-cli
-
-script:
-- hexo g
-- hexo d
-- rm -rf ~/.ssh
-
-branches:
-  only:
-  - master
-
-deploy:
-  provider: firebase
-  skip_cleanup: true
-  token: ${FIREBASE_TOKEN}
-
+language: node_js # 设置语言
+node_js: stable # 设置相应版本
 cache:
-  yarn: true
-  directories:
-  - node_modules
-
+    apt: true
+    directories:
+        - node_modules # 缓存不经常更改的内容
 before_install:
-- openssl aes-256-cbc -K $encrypted_493ca07042a9_key -iv $encrypted_493ca07042a9_iv -in .travis/id_rsa.enc -out ~/.ssh/id_rsa -d
-- chmod 600 ~/.ssh/id_rsa
-- eval $(ssh-agent)
-- ssh-add ~/.ssh/id_rsa
-- cp .travis/ssh_config ~/.ssh/config
-- git config --global user.name 'raincal'
-- git config --global user.email 'cyj228@vip.qq.com'
+    - export TZ='Asia/Shanghai' # 更改时区
+    - npm install hexo-cli -g
+    - chmod +x ./publish-to-gh-pages.sh  # 为shell文件添加可执行权限
+install:
+    - npm install # 安装hexo及插件
+script:
+    - hexo clean # 清除
+    - hexo g # 生成
+after_script:
+    - ./publish-to-gh-pages.sh
+branches:
+    only:
+        - hexo # 只监测hexo分支
+env:
+    global:
+        - GH_REF: github.com/git-ysz/git-ysz.github.io.git # 设置GH_REF，注意更改成自己的仓库地址
