@@ -116,7 +116,9 @@
           var data = res.list[j].arr;
           //console.log(data)
           var liTmpl = "";
-          for (var i = 0, len = data.link.length; i < len; i++) {
+          //for (var i = 0, len = data.link.length; i < len; i++) {
+          //图片数量
+          for (var i = 0, len = 8; i < len; i++) {
           	//图片路径
             var minSrc = 'https://coding.net/u/git-ysz/p/Images/git/raw/master/' + i + '.jpg';
             var src = 'https://coding.net/u/git-ysz/p/Images/git/raw/master/' + i + '.jpg';
