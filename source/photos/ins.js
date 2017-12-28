@@ -118,8 +118,8 @@
           var liTmpl = "";
           for (var i = 0, len = data.link.length; i < len; i++) {
           	//图片路径
-            var minSrc = 'https://coding.net/u/git-ysz/p/Images/git/raw/master/blog_photos/' + i + '.jpg';
-            var src = 'https://coding.net/u/git-ysz/p/Images/git/raw/master/blog_photos/' + i + '.jpg';
+            var minSrc = 'https://coding.net/u/git-ysz/p/Images/git/raw/master/' + i + '.jpg';
+            var src = 'https://coding.net/u/git-ysz/p/Images/git/raw/master/' + i + '.jpg';
             var type = data.type[i];
             var target = src + (type === 'video' ? '.mp4' : '.jpg');
             src += '';
