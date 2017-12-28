@@ -129,7 +129,7 @@
   
             liTmpl += '<figure class="thumb" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">\
                   <a href="' + src + '" itemprop="contentUrl" data-size="'+ size +'" data-type="' + type + '" data-target="' + src + '">\
-                    <img class="reward-img" data-type="' + type + '" data-src="' + minSrc + '" src="./assets/empty.png" itemprop="thumbnail" onload="lzld(this)">\
+                    <img width="250" height="250" class="reward-img" data-type="' + type + '" data-src="' + minSrc + '" src="./assets/empty.png" itemprop="thumbnail" onload="lzld(this)">\
                   </a>\
                   <figcaption style="display:none" itemprop="caption description">' + data.text[i] + '</figcaption>\
               </figure>';
