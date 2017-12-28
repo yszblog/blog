@@ -51,3 +51,8 @@ description: 快速，零配置的 Web 应用程序打包器-Parcel
 ``parcel watch index.html``
 
 当您准备为生产构建时，``build`` 模式会关闭监视，并且只会构建一次。 参见 **[Production](http://www.css88.com/doc/parcel/production.html)** 部分了解更多细节。
+
+**------------------------------------**
+<script type="text/javascript" src="https://api.imjad.cn/hitokoto/?encode=js&charset=utf-8"></script>
+<strong id="hitokoto"><script>hitokoto()</script></strong>
+**------------------------------------**

@@ -7,7 +7,8 @@
   },
   "scripts": {
     "start": "npm run build",
-    "build": "hexo clean & hexo g & hexo s -o"
+    "build": "hexo clean && hexo g && hexo s -o",
+    "dev": "node ./tool.js"
   },
   "dependencies": {
     "hexo": "^3.4.2",

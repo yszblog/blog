@@ -6,6 +6,8 @@ node_modules/
 public/
 .deploy*/
 .project
+BlogPicture/
+tool.js
 
 themes/next/.DS_Store
 themes/next/.idea/
