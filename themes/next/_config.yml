@@ -355,15 +355,15 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname: raincal
+  enable: true
+  shortname: yszblog
   count: true
 
 # Disqusapi
 disqusapi:
-  enable: false
+  enable: true
   forum: 'raincal'
-  site: 'https://git-ysz.github.io'
+  site: 'https://yszblog.vip'
   api: 'https://raincal-blog-disqus.now.sh/api'
   mode: 3
   badge: '博主'
