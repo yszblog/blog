@@ -3,7 +3,7 @@ title: {{ title }}
 date: {{ date }}
 tags: [标签]
 categories: [分类]
-description: [详情请点击全文]
+description: [详情请点击全文...]
 ---
 
 
