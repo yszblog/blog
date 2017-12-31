@@ -361,7 +361,7 @@ disqus:
 
 # Disqusapi
 disqusapi:
-  enable: true
+  enable: false
   forum: 'raincal'
   site: 'https://yszblog.vip'
   api: 'https://raincal-blog-disqus.now.sh/api'
