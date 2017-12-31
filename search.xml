@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[测试文件]]></title>
+    <url>%2F2017%2F12%2F30%2F%E6%B5%8B%E8%AF%95%E6%96%87%E4%BB%B6%2F</url>
+    <content type="text"><![CDATA[测试评论 hitokoto()]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[快速，零配置的 Web 应用程序打包器]]></title>
+    <url>%2F2017%2F12%2F28%2FParcel-%E6%89%93%E5%8C%85%E5%B7%A5%E5%85%B7%2F</url>
+    <content type="text"><![CDATA[🚀-入门Parcel 是一个Web应用程序 打包器(bundler) ，与以往的开发人员使用的打包器有所不同。它利用多核处理提供极快的性能，并且你不需要进行任何配置。 首先使用 Yarn 或 npm 安装 Parcel ： Yarn: yarn global add parcel-bundler npm: npm install -g parcel-bundler 使用以下命令在你的项目目录中创建一个 package.json 文件： yarn init -y or npm init -y Parcel 可以将任何类型的文件作为 入口点(entry point) ，但是 HTML 或 JavaScript 文件是一个很好的开始。如果你使用相对路径将你的主 JavaScript 文件链接到 HTML 中，Parcel 也会为你处理，并将该引用替换为输出文件的 URL 。 接下来，创建一个 index.html 和 index.js 文件。 12345&lt;html&gt;&lt;body&gt; &lt;script src=&quot;./index.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt; console.log(&quot;hello world&quot;); Parcel 内置了一个开发服务器，这会在你更改文件时自动重建你的应用程序，并支持 模块热替换 ，以便你快速开发。你只需指定 入口文件 即可： parcel index.html 现在在你浏览器中打开 http://localhost:1234/ 。 您也可以使用 -p &lt;port number&gt; 选项覆盖默认端口。 如果您没有自己的服务器，或者你的应用完全是客户端渲染的，那么请使用开发服务器。如果你有自己的服务器，您可以在watch 模式下运行 Parcel 。这样在文件更改时，Parcel 仍然会自动重建文件，并支持模块热替换，但不启动Web 服务器。 parcel watch index.html 当您准备为生产构建时，build 模式会关闭监视，并且只会构建一次。 参见 Production 部分了解更多细节。 hitokoto()]]></content>
+      <tags>
+        <tag>打包工具</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Fete Of The World]]></title>
+    <url>%2F2016%2F05%2F21%2FFete-Of-The-World%2F</url>
+    <content type="text"><![CDATA[See the Pen Fete-Of-The-World by Raincal (@Raincal) on CodePen. hitokoto()]]></content>
+      <categories>
+        <category>Animation</category>
+        <category>SVG</category>
+      </categories>
+      <tags>
+        <tag>SVG</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2015%2F05%2F21%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment hitokoto()]]></content>
+  </entry>
+</search>
