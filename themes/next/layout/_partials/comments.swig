@@ -50,6 +50,7 @@
   {% elseif theme.livere_uid %}
     <div class="comments" id="comments">
       <div id="lv-container" data-id="city" data-uid="{{ theme.livere_uid }}"></div>
+      <noscript> 未能正常显示评论功能 </noscript>
     </div>
 
   {% elseif theme.changyan.appid and theme.changyan.appkey %}
