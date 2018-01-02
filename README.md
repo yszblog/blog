@@ -1,1 +1,1 @@
-# git-ysz.github.io
+# yszblog.vip

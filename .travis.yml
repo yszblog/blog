@@ -20,4 +20,4 @@ branches:
         - hexo # 只监测hexo分支
 env:
     global:
-        - GH_REF: git@github.com:git-ysz/blog.git # 设置GH_REF，注意更改成自己的仓库地址
+        - GH_REF: git@github.com:git-ysz/blog.git # 设置GH_REF 注意更改成自己的仓库地址
