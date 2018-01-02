@@ -5,7 +5,7 @@
 # Site
 title: 福尔摩斯姚  ## 网站标题
 subtitle: 专注于搞事情的一个老清新~  ## 网站副标题
-description: 博客 | web开发 | 福尔摩斯姚  ## 网站描述
+description: 博客 | web开发 | 福尔摩斯姚 | 教程 ## 网站描述
 author: 976776565@qq.com ## 您的名字，作者
 language: zh-Hans ## 网站使用的语言
 timezone:  ## 网站时区。Hexo 预设使用您电脑的时区
@@ -80,7 +80,7 @@ baidusitemap:
 deploy: ##部署
   type: git
   repo: 
-    coding: git@github.com:git-ysz/git-ysz.github.io.git
+    coding: git@github.com:git-ysz/blog.git
   branch: 
     coding: hexo
 
