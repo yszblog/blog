@@ -23,7 +23,7 @@
 
 {% if theme.footer.powered %}
   <div class="powered-by">{#
-  #}{{ __('footer.powered', '<a target="_blank" href="https://github.com/" style="font-weight: bold">Coding Pages</a>') }}{#
+  #}{{ __('footer.powered', '<a target="_blank" href="https://github.com/" style="font-weight: bold">Git Hub</a>') }}{#
 #}</div>
 {% endif %}
 

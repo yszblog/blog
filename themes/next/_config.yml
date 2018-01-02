@@ -355,13 +355,13 @@ han: false
 
 # Disqus
 disqus:
-  enable: true
+  enable: false
   shortname: raincal
   count: true
 
-# Disqusapi
+# Disqusapi git@github.com:git-ysz/blog.git
 disqusapi:
-  enable: true
+  enable: false
   forum: 'raincal'
   site: 'https://raincal.top'
   api: 'https://raincal-blog-disqus.now.sh/api'
@@ -396,7 +396,7 @@ valine:
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
-#youyan_uid: your uid
+youyan_uid: 2154303
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
