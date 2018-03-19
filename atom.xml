@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yszblog.vip/"/>
-  <updated>2018-03-19T07:51:10.560Z</updated>
+  <updated>2018-03-19T11:16:00.153Z</updated>
   <id>https://yszblog.vip/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://yszblog.vip/2018/02/18/Paris%20of%20the%20Orient/"/>
     <id>https://yszblog.vip/2018/02/18/Paris of the Orient/</id>
     <published>2018-02-18T10:25:11.000Z</published>
-    <updated>2018-03-19T07:51:10.560Z</updated>
+    <updated>2018-03-19T11:16:00.153Z</updated>
     
     <content type="html"><![CDATA[<p></p><h3>上海 - Paris of the Orient</h3><p></p><div class="box"><br>大年初三、远走他乡、来到<span style="color: #CC0033;"> 2615.9 </span>公里外的上海。<br><br><br><span>New city new life. Expect good things to happen . Fighting ! ! !</span><br><br><br><img style="width: 80%;pointer-events: none;" src="https://images.unsplash.com/photo-1455459182396-ae46100617cb"><br></div><hr><p><script type="text/javascript" src="https://api.imjad.cn/hitokoto/?encode=js&charset=utf-8"></script><br><strong id="hitokoto"><script>hitokoto()</script></strong></p><hr>]]></content>
     
@@ -43,7 +43,7 @@
     <link href="https://yszblog.vip/2017/12/30/%E6%B5%8B%E8%AF%95%E6%96%87%E4%BB%B6/"/>
     <id>https://yszblog.vip/2017/12/30/测试文件/</id>
     <published>2017-12-30T09:11:11.000Z</published>
-    <updated>2018-03-19T07:51:10.560Z</updated>
+    <updated>2018-03-19T11:16:00.153Z</updated>
     
     <content type="html"><![CDATA[<h1 id="测试评论系统"><a href="#测试评论系统" class="headerlink" title="测试评论系统"></a>测试评论系统</h1><hr><p><script type="text/javascript" src="https://api.imjad.cn/hitokoto/?encode=js&charset=utf-8"></script><br><strong id="hitokoto"><script>hitokoto()</script></strong></p><hr>]]></content>
     
@@ -65,7 +65,7 @@
     <link href="https://yszblog.vip/2017/12/28/Parcel-%E6%89%93%E5%8C%85%E5%B7%A5%E5%85%B7/"/>
     <id>https://yszblog.vip/2017/12/28/Parcel-打包工具/</id>
     <published>2017-12-27T18:40:44.000Z</published>
-    <updated>2018-03-19T07:51:10.560Z</updated>
+    <updated>2018-03-19T11:16:00.153Z</updated>
     
     <content type="html"><![CDATA[<h2 id="🚀-入门"><a href="#🚀-入门" class="headerlink" title="🚀-入门"></a>🚀-入门</h2><p><strong>Parcel</strong> 是一个<strong>Web</strong>应用程序 打包器(<strong>bundler</strong>) ，与以往的开发人员使用的打包器有所不同。它利用多核处理提供极快的性能，并且你不需要进行任何配置。</p><p>首先使用 <strong>Yarn</strong> 或 <strong>npm</strong> 安装 <strong>Parcel</strong> ：</p><p><strong>Yarn:</strong></p><p><code>yarn global add parcel-bundler</code></p><p><strong>npm:</strong></p><p><code>npm install -g parcel-bundler</code></p><p>使用以下命令在你的项目目录中创建一个 <strong>package.json</strong> 文件：</p><p><code>yarn init -y</code></p><p><strong>or</strong></p><p><code>npm init -y</code></p><p><strong>Parcel</strong> 可以将任何类型的文件作为 入口点(<strong>entry point</strong>) ，但是 <strong>HTML</strong> 或 <strong>JavaScript</strong> 文件是一个很好的开始。如果你使用相对路径将你的主 <strong>JavaScript</strong> 文件链接到 <strong>HTML</strong> 中，<strong>Parcel</strong> 也会为你处理，并将该引用替换为输出文件的 <strong>URL</strong> 。</p><p>接下来，创建一个 <strong>index.html</strong> 和 <strong>index.js</strong> 文件。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">  &lt;script src=&quot;./index.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure><p><code>console.log(&quot;hello world&quot;);</code></p><p><strong>Parcel</strong> 内置了一个开发服务器，这会在你更改文件时自动重建你的应用程序，并支持 <a href="http://www.css88.com/doc/parcel/hmr.html" target="_blank" rel="noopener">模块热替换</a> ，以便你快速开发。你只需指定 入口文件 即可：</p><p><code>parcel index.html</code></p><p>现在在你浏览器中打开 <a href="http://localhost:1234/" target="_blank" rel="noopener">http://localhost:1234/</a> 。 您也可以使用 <code>-p &lt;port number&gt;</code> 选项覆盖默认端口。</p><p>如果您没有自己的服务器，或者你的应用完全是客户端渲染的，那么请使用开发服务器。如果你有自己的服务器，您可以在<strong>watch</strong> 模式下运行 <strong>Parcel</strong> 。这样在文件更改时，<strong>Parcel</strong> 仍然会自动重建文件，并支持模块热替换，但不启动<strong>Web</strong> 服务器。</p><p><code>parcel watch index.html</code></p><p>当您准备为生产构建时，<code>build</code> 模式会关闭监视，并且只会构建一次。 参见 <strong><a href="http://www.css88.com/doc/parcel/production.html" target="_blank" rel="noopener">Production</a></strong> 部分了解更多细节。</p><hr><p><script type="text/javascript" src="https://api.imjad.cn/hitokoto/?encode=js&charset=utf-8"></script><br><strong id="hitokoto"><script>hitokoto()</script></strong></p><hr>]]></content>
     
@@ -85,7 +85,7 @@
     <link href="https://yszblog.vip/2016/05/21/Fete-Of-The-World/"/>
     <id>https://yszblog.vip/2016/05/21/Fete-Of-The-World/</id>
     <published>2016-05-21T05:14:20.000Z</published>
-    <updated>2018-03-19T07:51:10.560Z</updated>
+    <updated>2018-03-19T11:16:00.153Z</updated>
     
     <content type="html"><![CDATA[<p></p><p data-height="470" data-theme-id="0" data-slug-hash="OgvyNa" data-default-tab="js,result" data-user="Raincal" data-embed-version="2" data-pen-title="Fete-Of-The-World" class="codepen">See the Pen <a href="https://codepen.io/Raincal/pen/OgvyNa/" target="_blank" rel="noopener">Fete-Of-The-World</a> by Raincal (<a href="https://codepen.io/Raincal" target="_blank" rel="noopener">@Raincal</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</p><p></p><script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script><hr><p><script type="text/javascript" src="https://api.imjad.cn/hitokoto/?encode=js&charset=utf-8"></script><br><strong id="hitokoto"><script>hitokoto()</script></strong></p><hr>]]></content>
     
@@ -112,7 +112,7 @@
     <link href="https://yszblog.vip/2015/05/21/hello-world/"/>
     <id>https://yszblog.vip/2015/05/21/hello-world/</id>
     <published>2015-05-21T05:14:20.000Z</published>
-    <updated>2018-03-19T07:51:10.560Z</updated>
+    <updated>2018-03-19T11:16:00.153Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><hr><p><script type="text/javascript" src="https://api.imjad.cn/hitokoto/?encode=js&charset=utf-8"></script><br><strong id="hitokoto"><script>hitokoto()</script></strong></p><hr>]]></content>
     
