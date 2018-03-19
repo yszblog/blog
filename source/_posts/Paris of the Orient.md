@@ -12,7 +12,7 @@ date: 2018-02-18 18:25:11
 
 <h3>上海 - Paris of the Orient</h3>
 <div class="box">
-大年初三、远走他乡、来到<span style="color: color:#CC0033;"> 2615.9 </span>公里外的上海。
+大年初三、远走他乡、来到<span style="color: #CC0033;"> 2615.9 </span>公里外的上海。
 <br />
 <span>New city new life. Expect good things to happen . Fighting ! ! !</span>
 <br />
