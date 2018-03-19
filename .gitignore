@@ -8,6 +8,7 @@ public/
 .project
 BlogPicture/
 tool.js
+.vscode
 
 themes/next/.DS_Store
 themes/next/.idea/

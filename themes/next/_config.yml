@@ -356,15 +356,15 @@ han: false
 # Disqus
 disqus:
   enable: false
-  shortname: raincal
+  shortname: ysz
   count: true
 
 # Disqusapi git@github.com:git-ysz/blog.git
 disqusapi:
   enable: false
-  forum: 'raincal'
-  site: 'https://raincal.top'
-  api: 'https://raincal-blog-disqus.now.sh/api'
+  forum: 'ysz'
+  site: ''
+  api: ''
   mode: 3
   badge: '博主'
   timeout: 3000
@@ -537,8 +537,8 @@ rating:
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
   enable: true
-  app_id: xDCefA9EsTVuN1A9rHMfI8CG-gzGzoHsz
-  app_key: TgK8LqquaVhiY6lmrw6U8zcW
+  app_id: hkfpr8VsiaL4zm0iCL38bgg9-gzGzoHsz
+  app_key: EU85H8id1pOvqFoDceKgXEL6
 
 # Another tool to show number of visitors to each article.
 # visit https://console.firebase.google.com/u/0/ to get apiKey and projectId
