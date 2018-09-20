@@ -1,7 +1,7 @@
 ---
 title: 快速，零配置的 Web 应用程序打包器
 date: 2017-12-28 2:40:44
-tags: [打包工具]
+tags: [工具]
 description: 快速，零配置的 Web 应用程序打包器-Parcel
 ---
 
